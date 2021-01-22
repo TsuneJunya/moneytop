@@ -1,0 +1,160 @@
+@media screen and (max-width: 768px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    a:visited{
+        color: inherit;
+      }
+
+      body {
+          background-color: rgb(107, 165, 199,0.5);
+      }
+    
+   
+    
+    /* ---------------------------------------------------- */
+    /* ヘッダー部分 */
+
+    .page-header {
+        height: 40px;
+        font-size: 15px;
+        font-family: 'Philosopher',serif;
+        text-align: center;
+        letter-spacing: 5px;
+        width: 100%;
+        line-height: 1.5;
+        opacity: 1;
+        padding-top: 30px;
+    }
+    
+    
+    /* ------------------------------------------------------------ */
+    /* 説明 */
+    article {
+        padding-top: 100px;
+        line-height: 1.3;
+        text-indent: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        letter-spacing: 2px;
+    }
+
+    .explain {
+        justify-content: center;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Philosopher',serif;
+
+    }
+
+    .explain .text {
+        text-align: left;
+        display: inline-block;
+    }
+
+   
+
+
+    .kome {
+        margin: 18px auto;
+        text-align: center;
+        display: block;
+    }
+    .kome .text {
+        text-align: left;
+        display: inline-block;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+
+    .money-image img {
+        width: 100%;
+        height: 220px;
+    }
+     
+
+    .br::before {
+        content: "\A" ;
+        white-space: pre ;
+    }
+    /* ------------------------------------------------------------ */
+    /* document btn */
+
+    .btn-group {
+        justify-content: center;
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 80px;
+        width: 100%;
+    }
+
+    .btn-group li {
+        color: white;
+        border-radius: 1px;
+        margin-bottom: 50px;
+        font-size: 20px;
+
+    }
+
+
+
+a.btn--yellow {
+    color: #000;
+    background-color: #fff100;
+    border-bottom: 5px solid #ccc100;
+    padding: 20px;
+    margin-bottom: 30px;
+
+  }
+
+
+  a.btn--yellow .btn--border-dashed {
+    border: 2px dashed #000;
+  }
+
+li {
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+
+    }
+
+    /* <!-- ---------------------------------------------------------------------- --> */
+    
+
+    .page-footer {
+        background-color: #000;
+        opacity: .6;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 30px;
+    }
+    
+    .footer-list {
+        display: flex;
+        opacity: 1;
+        justify-content: center;
+        list-style: none;
+        padding-top: 2px;
+    }
+    
+    .footer-list a {
+        margin: 5px;
+        font-size: 12px;
+        color: white;
+    }
+    
+    .footer-list a:hover {
+        color: aqua;
+    }
+    
+    
