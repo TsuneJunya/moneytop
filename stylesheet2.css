@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 768px) {
 
     * {
@@ -156,5 +157,3 @@ li {
     .footer-list a:hover {
         color: aqua;
     }
-    
-    
