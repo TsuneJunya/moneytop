@@ -1,0 +1,208 @@
+@media screen and (min-width: 768px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    a:visited{
+        color: inherit;
+      }
+    
+   
+    
+    /* ---------------------------------------------------- */
+    /* ヘッダー部分 */
+
+    .page-header {
+        height: 100px;
+        font-size: 35px;
+        font-family: 'Philosopher',serif;
+        text-align: center;
+        letter-spacing: 15px;
+        width: 100%;
+        line-height: 1.1;
+        opacity: 1;
+        padding-top: 30px;
+    }
+    
+    
+    /* ------------------------------------------------------------ */
+    /* 説明 */
+    article {
+        padding-top: 100px;
+        line-height: 1.6;
+        text-indent: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .explain {
+        justify-content: center;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Philosopher',serif;
+
+    }
+
+    .explain .text {
+        text-align: left;
+        display: inline-block;
+    }
+
+   
+
+
+    .kome {
+        margin: 16px auto;
+        text-align: center;
+        display: block;
+    }
+    .kome .text {
+        text-align: left;
+        display: inline-block;
+        font-size: 20px;
+    }
+
+
+    .money-image img {
+        width: 50%;
+        height: 200px;
+    }
+     
+
+    .br::before {
+        content: "\A" ;
+        white-space: pre ;
+    }
+    /* ------------------------------------------------------------ */
+    /* document btn */
+
+    .btn-group {
+        display: flex;
+        justify-content: center;
+        /* padding: 20px; */
+    }
+
+    .btn-group a {
+        color: white;
+        padding:10px;
+        margin: 20px;
+        border-radius: 25px;
+    }
+
+    *,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 0.4rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.3em;
+  color:white;
+  border-radius: 0.5rem;
+}
+
+a.btn-border {
+  margin-bottom: 12px;
+  padding: 10px;
+  display: flex;
+  -webkit-transition: all 0.3s;
+
+  transition: all 0.3s;
+
+  border: 2px solid #000;
+  background: -webkit-radial-gradient(#000 15%, rgba(0, 0, 0, 0) 16%),
+    -webkit-radial-gradient(#000 15%, rgba(0, 0, 0, 0) 16%), #fc0;
+  background: radial-gradient(#000 15%, rgba(0, 0, 0, 0) 16%),
+    radial-gradient(#000 15%, rgba(0, 0, 0, 0) 16%), #fc0;
+  background-position: 0 0, 6px 6px;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: 12px 12px;
+}
+
+a.btn-border span {
+  position: relative;
+
+  display: block;
+
+  padding: 1.25rem 3rem;
+
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+a.btn-border:hover {
+  background-position: 0 0, 8px 8px;
+  background-size: 16px 16px;
+}
+
+.btn-group li {
+    list-style: none;
+    float: left;
+}
+
+
+.page-footer {
+    background-color: #000;
+    opacity: .6;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}
+
+.footer-list {
+    display: flex;
+    opacity: 1;
+    justify-content: center;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.footer-list a {
+    margin: 50px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.footer-list a:hover {
+    color: aqua;
+}
+
+
+
+    }
+    
