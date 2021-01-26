@@ -33,6 +33,7 @@
     /* ------------------------------------------------------------ */
     /* 説明 */
     article {
+        margin-top: 30px;
         padding-top: 100px;
         line-height: 1.6;
         text-indent: 1em;
@@ -43,36 +44,52 @@
     .explain {
         justify-content: center;
         text-align: center;
-        font-size: 25px;
+        font-size: 24px;
         font-family: 'Philosopher',serif;
+        line-height: 1.2;
 
     }
 
-    .explain .text {
-        text-align: left;
-        display: inline-block;
+
+    .sub-total {
+        color: blue;
+        border-bottom: blue solid 1px;
+        letter-spacing: 10px;
     }
 
-   
+    .total {
+        color: red;
+        border-bottom: red double 2px;
+        letter-spacing: 10px;
+        
+    }
+    .border-double {
+        border-bottom: double black 5px;
+        font-size: 28px;
+    }
 
 
-    .kome {
+    .set {
         margin: 16px auto;
         text-align: center;
         display: block;
     }
-    .kome .text {
+    .set .setting {
         text-align: left;
         display: inline-block;
+    }
+
+    .setting {
+        margin-top: 20px;
+        letter-spacing: 4px;
+        line-height: 1.5;
         font-size: 20px;
     }
 
-
     .money-image img {
-        width: 50%;
-        height: 200px;
+        width: 55%;
+        height: 270px;
     }
-     
 
     .br::before {
         content: "\A" ;
@@ -173,14 +190,23 @@ a.btn-border:hover {
     float: left;
 }
 
+.jtbike-doc {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    letter-spacing: 8px;
+    font-family: 'Philosopher',serif;
+}
+
 
 .page-footer {
+    margin-top: 80px;
     background-color: #000;
-    opacity: .6;
+    opacity: .5;
     position: relative;
     bottom: 0;
     width: 100%;
-    height: 70px;
+    height: 80px;
 }
 
 .footer-list {
@@ -193,7 +219,7 @@ a.btn-border:hover {
 
 .footer-list a {
     margin: 50px;
-    font-size: 20px;
+    font-size: 2vw;
     color: white;
 
 }
@@ -203,6 +229,6 @@ a.btn-border:hover {
 }
 
 
-
     }
     
+
